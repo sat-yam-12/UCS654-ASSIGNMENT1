@@ -31,11 +31,36 @@ a_r = 0.05 × (r mod 7)
 b_r = 0.3 × (r mod 5 + 1)
 For my roll number, the computed parameter values are:
 Parameter	Computed Value
-a_r	0.15000000000000002
-b_r	1.5
+| Parameter | Computed Value |
+|----------|---------------|
+| a_r      | 0.15000000000000002 |
+| b_r      | 1.5 |
+
 
 Since the inverse sine function is valid only for values between -1 and 1, the transformation is applied only to those data points that satisfy:
 -1 ≤ b_r · x ≤ 1
 This condition ensures that the transformation remains mathematically valid
 ```
+## Step 2: Estimation of the Probability Density Function
 
+After applying the nonlinear transformation, the probability density function of the transformed variable **z** is assumed to follow the form:
+
+```text
+p̂(z) = c · e^(−λ (z − μ)²)
+```
+## step 3:Parameter Calculation
+``` textThe parameters are estimated using basic statistical measures:
+Mean:
+μ = (1 / N) Σ zᵢ
+
+Variance:
+σ² = (1 / N) Σ (zᵢ − μ)²
+
+Lambda parameter:
+λ = 1 / (2σ²)
+
+Normalization constant:
+c = √(λ / π)
+
+These calculations ensure that the probability density function is properly scaled and centered.
+```
