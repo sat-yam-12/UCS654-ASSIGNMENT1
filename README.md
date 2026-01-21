@@ -64,3 +64,22 @@ c = √(λ / π)
 
 These calculations ensure that the probability density function is properly scaled and centered.
 ```
+## Results
+
+The estimated values of the probability distribution parameters obtained from the transformed data are given below:
+
+| Parameter | Meaning | Estimated Value |
+|----------|--------|----------------|
+| μ | Mean of transformed data | 19.679776959069144 |
+| λ | Distribution spread | 0.0019237373858478758 |
+| c | Normalization factor | 0.0262408538938648 |
+
+## 5. Key Observations
+``` textThe roll-number-based mapping introduces a controlled nonlinear effect.
+The resulting distribution has a shape similar to a Gaussian curve.
+Parameter estimation relies on standard statistical concepts.
+The method guarantees different models for different roll numbers.
+```
+## 6.Summary
+```textIn this assignment, air quality data containing NO₂ measurements was analyzed using a roll-number-based nonlinear transformation. A probability density function was then learned from the transformed values, and its parameters were calculated using the sample mean and variance. This exercise helps reinforce fundamental ideas related to probability distributions and data modeling.
+```
