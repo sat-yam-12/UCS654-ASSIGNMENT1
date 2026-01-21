@@ -31,10 +31,12 @@ a_r = 0.05 × (r mod 7)
 b_r = 0.3 × (r mod 5 + 1)
 For my roll number, the computed parameter values are:
 Parameter	Computed Value
+
 | Parameter | Computed Value |
 |----------|---------------|
-| a_r      | 0.15000000000000002 |
-| b_r      | 1.5 |
+| a_r | 0.15000000000000002 |
+| b_r | 1.5 |
+
 
 
 Since the inverse sine function is valid only for values between -1 and 1, the transformation is applied only to those data points that satisfy:
