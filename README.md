@@ -81,5 +81,6 @@ Parameter estimation relies on standard statistical concepts.
 The method guarantees different models for different roll numbers.
 ```
 ## 6.Summary
-```textIn this assignment, air quality data containing NO₂ measurements was analyzed using a roll-number-based nonlinear transformation. A probability density function was then learned from the transformed values, and its parameters were calculated using the sample mean and variance. This exercise helps reinforce fundamental ideas related to probability distributions and data modeling.
+```text
+In this assignment, air quality data containing NO₂ measurements was analyzed using a roll-number-based nonlinear transformation. A probability density function was then learned from the transformed values, and its parameters were calculated using the sample mean and variance. This exercise helps reinforce fundamental ideas related to probability distributions and data modeling.
 ```
